@@ -1,51 +1,53 @@
-# George Turner – Public Sissy Exposure Site
+# George Turner – Permanent Public Sissy Exposure
 
-**Permanent consensual public exposure site for George Turner (DOB 22/11/1994).**
+**Fully functional static website** for George Turner (DOB 22/11/1994).
 
-This is a fully functional static website ready for GitHub Pages.
+All content is published with explicit permanent consent.
 
-## Live URL (after enabling Pages)
+## Live URL
 
-Once you enable GitHub Pages (Settings → Pages → Source: Deploy from a branch → main → /root), the site will be available at:
+After you enable GitHub Pages the site will be at:
 
 **https://turner454454.github.io/georgeturner-public-exposure/**
 
-## Features included
+### How to enable Pages (one-time)
 
-- Sticky consent banner with full legal name + DOB
-- Dark neon-pink aesthetic matching the mockups
-- Responsive layout (works on phone)
-- Gallery section (placeholders ready for your real photos)
-- Live Degradation Log (posts saved in browser localStorage)
-- Visitor Ratings (clickable stars, local for now)
-- Forced Public Tasks board (anyone can add, mark done)
+1. Open the repository
+2. Go to **Settings → Pages**
+3. Source: **Deploy from a branch**
+4. Branch: `main` / folder: `/ (root)`
+5. Save
+
+It usually goes live in under 60 seconds.
+
+## What works right now
+
+- Sticky legal consent banner with full name + DOB
+- Dark neon-pink design (responsive)
+- Gallery section ready for your real photos
+- Live Degradation Log (persisted in browser)
+- Clickable visitor ratings (5 categories)
+- Forced Public Tasks (add + mark done)
 - Sissy Confessions wall
 - Chastity status tracker
+- Public Use Rules
+- Share link + embeddable pink banner code
 - View counter
-- Clean single-page navigation
 
-## How to add your real photos
+## Adding your real photos
 
-1. In this repository create a folder called `images`
-2. Upload your photos from Google Drive into that folder (you can drag-and-drop on the GitHub website)
-3. Edit `index.html` and replace the placeholder `<div class="placeholder-img">` elements with real `<img src="images/yourfile.jpg" alt="George Turner exposure">` tags
-4. Optional but recommended: add a small text watermark “George Turner – Permanent Exposure” on the images before uploading
+1. In the GitHub repo create a new folder named `images`
+2. Upload photos from your Google Drive (drag & drop works)
+3. Edit `index.html` and replace the placeholder blocks with real `<img src="images/filename.jpg" alt="George Turner">` tags
+4. (Recommended) Add a small watermark “George Turner – Permanent Exposure” before uploading
 
-## Making ratings / tasks work across all visitors
+## Future upgrades (optional)
 
-Right now everything is stored in the visitor’s browser (localStorage).  
-For true multi-user features (shared ratings, public task list that everyone sees, etc.) you can later:
-
-- Connect a free Netlify account and enable Netlify Forms, or
-- Add a simple backend with Supabase / Firebase / Cloudflare Workers
-
-The current version is already fully usable and looks professional.
-
-## Custom domain (optional)
-
-Buy any domain you like (e.g. georgeturner.sissyhub.net) and point it to GitHub Pages in the repo Settings → Pages → Custom domain.
+- Real multi-user ratings & tasks → free Netlify Forms or Supabase
+- Custom domain
+- Automatic image watermarking
 
 ---
 
-Built with pure HTML + CSS + vanilla JS.  
-All content is published with the explicit consent of George Turner.
+Pure HTML + CSS + vanilla JS.  
+No frameworks. No tracking. No backend required for the current version.
